@@ -16,7 +16,7 @@ public class UserService {
     IUserController userController = new UserController();
 
     @GET
-    public List<IUserDTO> getHello(){
+    public List<IUserDTO> getUserList(){
         return userController.getUsers();
     }
 
